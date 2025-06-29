@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI Healing Tool</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>AI Healing Tool</h1>
+    <input type="file" id="imageUpload" accept="image/*">
+    <button id="healBtn" disabled>Heal Selected Area</button>
+    <div class="image-container">
+      <canvas id="imageCanvas"></canvas>
+    </div>
+    <div class="result-container">
+      <h2>Result</h2>
+      <img id="healedImage" alt="Healed result">
+    </div>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
